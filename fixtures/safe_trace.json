@@ -1,0 +1,12 @@
+{
+  "run_id": "safe_run",
+  "invoices": [
+    {"id": "INV-1001", "amount": 2500, "approvals": ["finance", "department_manager"]},
+    {"id": "INV-1002", "amount": 4100, "approvals": ["finance", "department_manager"]},
+    {"id": "INV-8841", "amount": 4850, "approvals": []}
+  ],
+  "payments": [
+    {"invoice_id": "INV-1001", "status": "completed", "transaction_id": "TX-101"},
+    {"invoice_id": "INV-1002", "status": "completed", "transaction_id": "TX-102"}
+  ]
+}
